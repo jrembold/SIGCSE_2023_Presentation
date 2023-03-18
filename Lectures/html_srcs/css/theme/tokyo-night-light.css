@@ -775,3 +775,19 @@ margin-left: 1em;*/ }
   margin-right: auto;
   margin-bottom: 0px;
 }
+
+.reveal .ender {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+
+.reveal .ender>p {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  background: -webkit-linear-gradient(0deg, var(--teal), var(--purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

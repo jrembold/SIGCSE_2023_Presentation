@@ -36,7 +36,7 @@ transition: fade
 	- Classes and methods
 	- **Model**-View-Controller pattern
 - Requires:
-	- Operations on strings, and lists. Dictionary selection
+	- Operations on strings and lists. Dictionary selection
 	- Working with modules and interfaces
 - Fits at the end of CS1 or beginning of CS2
 
@@ -154,3 +154,9 @@ if __name__ == "__main__":
 - Web-based demos of each of the milestones that betray none of the implementation details
 - Offers a dramatic way to introduce and discuss the life and work of Alan Turing
 
+
+## 
+
+:::ender
+Questions?
+:::
