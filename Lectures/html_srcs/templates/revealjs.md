@@ -91,6 +91,8 @@ $endif$
 $if(highlightjs)$
   <script src="$revealjs-url$/plugin/highlight/highlight.js"></script>
 $endif$
+  <script src="$revealjs-url$/../js/JSGraphics.js"></script>
+  <script src="$revealjs-url$/../js/RotorDemo.js"></script>
 
   <script>
 
@@ -396,6 +398,7 @@ $endif$
             // { src: "$revealjs-url$/plugin/title-footer/title-footer.js", async: true, callback: function() { title_footer.initialize({css:"$revealjs-url$/plugin/title-footer/title-footer.css"}); } },
 		],
       });
+      Reveal.addEventListener("RotorDemo", RotorDemo)
     </script>
   $for(include-after)$
   $include-after$

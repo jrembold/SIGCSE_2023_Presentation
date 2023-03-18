@@ -1,6 +1,6 @@
-# Class Repository Starter with RevealJS Slides
+# SIGCSE 2023 Enigma Presentation
 
-This repo is intented to be a quick template repo to use to start a new repository for a course which will use revealjs slides. It does use submodules to bring in the revealjs source as well as some plugins, and so should likely be cloned with
+This repo is does use submodules to ensure the latest revealjs and corresponding plugin versions are used, and so should likely be cloned with something like:
 ```bash
-git clone --recurse-submodules https://github.com/jrembold/class_slides_template
+git clone --recurse-submodules https://github.com/jrembold/SIGCSE_2023_Presentation
 ```
