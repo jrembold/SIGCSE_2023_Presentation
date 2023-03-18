@@ -1787,27 +1787,53 @@ representation of a working Enigma machine</li>
          ry="3.5619197" /></g></g></svg>
 </p>
 </section>
-<section id="animating-away-confusion" class="slide level2"
-data-state="RotorDemo">
-<h2 data-state="RotorDemo">Animating Away Confusion</h2>
-<div id="RotorDemo">
-<canvas contenteditable="true" width="1485" height="810" style="border: none; overflow: hidden; outline-width: 0px; width: 1485px; height: 810px;">
-</canvas>
+<section id="milestones" class="slide level2">
+<h2>Milestones</h2>
+<ul>
+<li>The Enigma project is divided into a series of milestones that
+students can test as they go:
+<ul>
+<li>Milestone 1: Activate the keyboard when pressed</li>
+<li>Milestone 2: Connect the keys directly to the lamps</li>
+<li>Milestone 3: Design and implement rotors</li>
+<li>Milestone 4: Implement one stage in the encryption</li>
+<li>Milestone 5: Implement the full encryption path</li>
+<li>Milestone 6: Make the rotors advance properly at the start of each
+keypress</li>
+</ul></li>
+</ul>
+</section>
+<section id="section-1" class="slide level2"
+data-background-iframe="https://willamette.edu/~esroberts/NiftyAssignments-2023/Milestones/index.html">
+<h2
+data-background-iframe="https://willamette.edu/~esroberts/NiftyAssignments-2023/Milestones/index.html"></h2>
+<!-- What makes it nifty -->
+</section>
+<section id="why-so-nifty" class="slide level2">
+<h2>Why So Nifty?</h2>
+<ul>
+<li>Appeals to a broad spectrum of students: encryption enthusiasts to
+history buffs to students who appreciate “real world” projects</li>
+<li>Small, easily understood milestones for students to approach
+incrementally</li>
+<li>Interesting extensions possible for students who progress
+quickly</li>
+<li>Students can build a full graphical application without needing to
+understand a complex package</li>
+<li>Animations and interactables to help students understand complex
+workings of the rotors</li>
+<li>Web-based demos of each of the milestones that betray none of the
+implementation details</li>
+<li>Implementations exist for both Python and Java</li>
+<li>Offers a dramatic way to introduce and discuss the life and work of
+Alan Turing</li>
+</ul>
+</section>
+<section id="section-2" class="slide level2">
+<h2></h2>
+<div class="ender">
+<p>Questions?</p>
 </div>
-<td style="text-align:center;">
-<table class="CTControlStrip">
-<tbody style="border:none;">
-<tr>
-<td>
-<img id="RotorDemoStepInButton" class="CTButton" src="../images/StepInControl.png" alt="StepInButton" width="70px">
-</td>
-<td>
-<img id="RotorDemoResetButton" class="CTButton" src="../images/ResetControl.png" alt="ResetButton" width="70px">
-</td>
-</tr>
-</tbody>
-</table>
-</td>
 <!-- How does it operate? -->
 </section>
 <section id="the-model-starter" class="slide level2">
@@ -2030,7 +2056,7 @@ data-state="RotorDemo">
 </svg>
 </p>
 </div>
-<div class="col" style="flex-grow:2">
+<div class="col fragment fade-left" style="flex-grow:2">
 <pre ><code class="python" style="font-size:.70em; max-height:800px" data-line-numbers="22-44"># File: EnigmaModel.py
 
 """ This is the starter file for the Enigma project. """
@@ -2089,51 +2115,27 @@ if __name__ == "__main__":
 </div>
 </div>
 </section>
-<section id="milestones" class="slide level2">
-<h2>Milestones</h2>
-<ul>
-<li>The project is divided into a series of milestones that students can
-test as they go:
-<ul>
-<li>Milestone 1: Activate the keyboard when pressed</li>
-<li>Milestone 2: Connect the keys directly to the lamps</li>
-<li>Milestone 3: Design and implement rotors</li>
-<li>Milestone 4: Implement one stage in the encryption</li>
-<li>Milestone 5: Implement the full encryption path</li>
-<li>Milestone 6: Make the rotors advance properly at the start of each
-keypress</li>
-</ul></li>
-</ul>
-</section>
-<section id="section-1" class="slide level2"
-data-background-iframe="https://willamette.edu/~esroberts/NiftyAssignments-2023/Milestones/index.html">
-<h2
-data-background-iframe="https://willamette.edu/~esroberts/NiftyAssignments-2023/Milestones/index.html"></h2>
-<!-- What makes it nifty -->
-</section>
-<section id="why-so-nifty" class="slide level2">
-<h2>Why So Nifty?</h2>
-<ul>
-<li>Appeals to a broad spectrum of students: encryption enthusiasts to
-history buffs to students who appreciate “real world” projects</li>
-<li>Small, easily understood milestones for students to approach
-incrementally</li>
-<li>Interesting extensions possible for students who progress
-quickly</li>
-<li>Students can build a full graphical application without needing to
-understand a complex package</li>
-<li>Implementations exist for both Python and Java</li>
-<li>Web-based demos of each of the milestones that betray none of the
-implementation details</li>
-<li>Offers a dramatic way to introduce and discuss the life and work of
-Alan Turing</li>
-</ul>
-</section>
-<section id="section-2" class="slide level2">
-<h2></h2>
-<div class="ender">
-<p>Questions?</p>
+<section id="animating-away-confusion" class="slide level2"
+data-state="RotorDemo">
+<h2 data-state="RotorDemo">Animating Away Confusion</h2>
+<div id="RotorDemo">
+<canvas contenteditable="true" width="1485" height="810" style="border: none; overflow: hidden; outline-width: 0px; width: 1485px; height: 810px;">
+</canvas>
 </div>
+<td style="text-align:center;">
+<table class="CTControlStrip">
+<tbody style="border:none;">
+<tr>
+<td>
+<img id="RotorDemoStepInButton" class="CTButton" src="../images/StepInControl.png" alt="StepInButton" width="70px">
+</td>
+<td>
+<img id="RotorDemoResetButton" class="CTButton" src="../images/ResetControl.png" alt="ResetButton" width="70px">
+</td>
+</tr>
+</tbody>
+</table>
+</td>
 </section>
     </div>
   </div>

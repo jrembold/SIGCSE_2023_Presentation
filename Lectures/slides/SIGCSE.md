@@ -45,24 +45,37 @@ transition: fade
 ![Enigma Machine and Diagram](../images/enigma_photo.svg){width=90%}
 
 
-## Animating Away Confusion {data-state="RotorDemo"}
-<div id="RotorDemo">
-<canvas contenteditable="true" width="1485" height="810" style="border: none; overflow: hidden; outline-width: 0px; width: 1485px; height: 810px;"></canvas>
-</div>
-<td style="text-align:center;">
-    <table class="CTControlStrip">
-        <tbody style="border:none;">
-            <tr>
-                <td>
-                    <img id="RotorDemoStepInButton" class="CTButton" src="../images/StepInControl.png" alt="StepInButton" width="70px">
-                </td>
-                <td>
-                    <img id="RotorDemoResetButton" class="CTButton" src="../images/ResetControl.png" alt="ResetButton" width="70px">
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</td>
+
+## Milestones
+- The Enigma project is divided into a series of milestones that students can test as they go:
+    - Milestone 1: Activate the keyboard when pressed
+    - Milestone 2: Connect the keys directly to the lamps
+    - Milestone 3: Design and implement rotors
+    - Milestone 4: Implement one stage in the encryption
+    - Milestone 5: Implement the full encryption path
+    - Milestone 6: Make the rotors advance properly at the start of each keypress
+
+## {data-background-iframe="https://willamette.edu/~esroberts/NiftyAssignments-2023/Milestones/index.html"}
+
+
+
+<!-- What makes it nifty -->
+## Why So Nifty?
+- Appeals to a broad spectrum of students: encryption enthusiasts to history buffs to students who appreciate "real world" projects
+- Small, easily understood milestones for students to approach incrementally
+- Interesting extensions possible for students who progress quickly
+- Students can build a full graphical application without needing to understand a complex package
+- Animations and interactables to help students understand complex workings of the rotors
+- Web-based demos of each of the milestones that betray none of the implementation details
+- Implementations exist for both Python and Java
+- Offers a dramatic way to introduce and discuss the life and work of Alan Turing
+
+
+## 
+
+:::ender
+Questions?
+:::
 
 
 <!-- How does it operate? -->
@@ -71,7 +84,11 @@ transition: fade
 ::::col
 ![Model-View-Controller Image](../images/mcv.svg)
 ::::
-::::{.col style='flex-grow:2'}
+
+
+
+
+::::{.col .fragment .fade-left style='flex-grow:2'}
 ```{.python style='font-size:.70em; max-height:800px' data-line-numbers=22-44}
 # File: EnigmaModel.py
 
@@ -132,31 +149,21 @@ if __name__ == "__main__":
 ::::
 ::::::
 
-## Milestones
-- The project is divided into a series of milestones that students can test as they go:
-    - Milestone 1: Activate the keyboard when pressed
-    - Milestone 2: Connect the keys directly to the lamps
-    - Milestone 3: Design and implement rotors
-    - Milestone 4: Implement one stage in the encryption
-    - Milestone 5: Implement the full encryption path
-    - Milestone 6: Make the rotors advance properly at the start of each keypress
-
-
-## {data-background-iframe="https://willamette.edu/~esroberts/NiftyAssignments-2023/Milestones/index.html"}
-
-<!-- What makes it nifty -->
-## Why So Nifty?
-- Appeals to a broad spectrum of students: encryption enthusiasts to history buffs to students who appreciate "real world" projects
-- Small, easily understood milestones for students to approach incrementally
-- Interesting extensions possible for students who progress quickly
-- Students can build a full graphical application without needing to understand a complex package
-- Implementations exist for both Python and Java
-- Web-based demos of each of the milestones that betray none of the implementation details
-- Offers a dramatic way to introduce and discuss the life and work of Alan Turing
-
-
-## 
-
-:::ender
-Questions?
-:::
+## Animating Away Confusion {data-state="RotorDemo"}
+<div id="RotorDemo">
+<canvas contenteditable="true" width="1485" height="810" style="border: none; overflow: hidden; outline-width: 0px; width: 1485px; height: 810px;"></canvas>
+</div>
+<td style="text-align:center;">
+    <table class="CTControlStrip">
+        <tbody style="border:none;">
+            <tr>
+                <td>
+                    <img id="RotorDemoStepInButton" class="CTButton" src="../images/StepInControl.png" alt="StepInButton" width="70px">
+                </td>
+                <td>
+                    <img id="RotorDemoResetButton" class="CTButton" src="../images/ResetControl.png" alt="ResetButton" width="70px">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</td>
